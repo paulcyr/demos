@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Frontend</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<h1>Cleaning Status</h1>
+	<div id="controls">
+		<button data-action="start">Start</button>
+	</div>
+	<div class="stats">
+		<div>Running time:</div>
+		<div>
+			<span data-stat="duration">0</span>s
+		</div>
+		<div>Spaces cleaned:</div>
+		<div data-stat="spaces-cleaned">0</div>
+		<div>Completion:</div>
+		<div>
+			<span data-stat="completion">0</span>%
+		</div>
+		<div>Productivity:</div>
+		<div>
+			<span data-stat="rate">0</span>
+			<abbr title="New Spaces Cleaned">NSC</abbr>/s
+		</div>
+	</div>
+	<div class="map">
+		<canvas class="map-canvas"></canvas>
+	</div>
+	<div id="scripts">
+		<script src="main.js" defer async></script>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.controls {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-column-gap: 1em;
+	grid-row-gap: 0.5em;
+}
+
+.map {
+	display: block;
+	margin-top: 1em;
+}
+
+.map-canvas {
+	border: 0.0625em solid black;
+}
